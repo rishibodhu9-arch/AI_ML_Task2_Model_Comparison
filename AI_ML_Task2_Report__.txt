@@ -1,0 +1,35 @@
+    AI & Machine Learning Internship - Task 2 Report 
+
+ 
+Name: BODHU RISHIKESH 
+
+College: AVN Institute of Engineering and Technology 
+
+Branch: Artificial Intelligence & Machine Learning 
+
+TASK 2 
+Feature Engineering, Model Optimization & Performance
+Comparison
+
+Objective
+Build a House Price Prediction model using the California Housing Dataset, apply feature scaling,
+train multiple regression models, compare their performance, and select the best-performing model.
+
+Methodology
+Imported libraries, loaded the dataset, separated features and target, applied StandardScaler, split
+the data into training and testing sets, trained Linear Regression, Ridge Regression, and Decision
+Tree Regression models, evaluated them using RMSE and R² Score, and compared their
+performance.
+
+Model Performance Comparison Table
+
+ModelRMSER² ScoreRemarksLinear Regression 0.7455810.575788
+Baseline ModelRidge Regression 0.745557
+0.575816
+Reduced OverfittingDecision Tree Regression0.724234 
+0.599732
+Best Performing Model
+Result 
+The three regression models were compared using RMSE and R² Score. Decision Tree Regression achieved the best overall performance among the tested algorithms.
+Conclusion
+Three regression models were trained and evaluated using RMSE and R² Score. Decision Tree Regression achieved the lowest RMSE (0.724234) and the highest R² Score (0.599732), making it the best-performing model for the California Housing Dataset. Feature scaling improved model stability and enabled a fair comparison among the algorithms.
